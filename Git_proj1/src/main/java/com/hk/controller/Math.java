@@ -10,6 +10,6 @@ public class Math {
 
 	@GetMapping("/add")
 	public ResponseEntity<String>add(){
-		return new ResponseEntity<String>("addition operation",HttpStatus.OK);
+		return new ResponseEntity<String>("addition operation is working ",HttpStatus.OK);
 	}
 }
